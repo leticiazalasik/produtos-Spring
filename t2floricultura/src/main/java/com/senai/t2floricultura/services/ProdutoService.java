@@ -12,7 +12,7 @@ import com.senai.t2floricultura.models.Produto;
 import com.senai.t2floricultura.repository.ProdutoRepository;
 
 @Service
-public class produtoService {
+public class ProdutoService {
 
 @Autowired
 private ProdutoRepository produtoRepository; 
