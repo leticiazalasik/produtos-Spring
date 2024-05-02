@@ -6,7 +6,7 @@ Repositório criado com o objetivo de praticar a conexão JAVA com banco de dado
 
 ▪️ cadastrar
 
-▪️ ecxluir
+▪️ excluir
 
 ▪️ alterar 
 
