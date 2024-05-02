@@ -32,10 +32,11 @@ return produtoRepository.save(produto);
 }
 
 public void excluirProduto(Long id) { 
-produtoRepository.deleteById(id);
+		 produtoRepository.deleteById(id);
+         System.out.println("Excluindo produto com ID: " + id);
+}
+
 
 }
 
 
-
-}

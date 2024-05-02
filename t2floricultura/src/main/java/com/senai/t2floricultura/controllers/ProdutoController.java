@@ -24,7 +24,7 @@ public class ProdutoController {
 	@Autowired
 	ProdutoService produtoService; 
 	
-	@GetMapping("/produtos/")
+	@GetMapping("/produtos")
 	public List<Produto> listarProdutos(){
 		return produtoService.listarProdutos(); 
 	}
@@ -40,17 +40,11 @@ public class ProdutoController {
 	
 	@DeleteMapping("/produtos/{id}")
 	public ResponseEntity<Object> excluirProduto(@PathVariable Long id){
+		produtoService.excluirProduto(id);
 		return ResponseEntity.status(HttpStatus.OK).body("Produto excluído com sucesso!"); 
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	
